@@ -152,3 +152,25 @@ body {
     border-right-style: hidden;
     border-left-style: hidden;
 }
+
+.add-restaurant {
+    position: relative;
+    width: 110px;
+    height: 40px;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: hidden;
+    border: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    background-color: #00a8ff;
+}
+
+.add-restaurant:hover {
+    background-color: #0279b4;
+}
