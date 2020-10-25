@@ -107,16 +107,9 @@ body {
 }
 
 .search {
-    width: 70px;
+    width: 220px;
     height: 40px;
-    top: -140px;
-    left: 40px;
-}
-
-.restaurant {
-    width: 110px;
-    height: 40px;
-    top: -340px;
+    top: -180px;
     left: 40px;
 }
 
@@ -135,22 +128,15 @@ body {
 
 .search-container {
     width: 95%;
-    height: 150px;
-}
-
-.search-icon {
-    position: relative;
-    top: 60px;
-    left: 30px;
-    color: #00a8ff;
+    height: 190px;
 }
 
 .search-input {
     position: relative;
     width: 30%;
     height: 40px;
-    top: 20px;
-    left: 80px;
+    top: 50px;
+    left: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     border-top-style: hidden;
@@ -158,17 +144,17 @@ body {
     border-left-style: hidden;
 }
 
-.restaurant-container {
-    width: 95%;
-    height: 350px;
+.buttons {
+    position: relative;
+    top: 80px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
-.add-restaurant {
-    position: relative;
+.button-cancel {
     width: 110px;
     height: 40px;
-    top: 30px;
-    left: 20px;
     cursor: pointer;
     border-top-style: hidden;
     border-right-style: hidden;
@@ -178,71 +164,25 @@ body {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    background-color: #00a8ff;
+    background-color: #d63031;
 }
 
-.add-restaurant:hover {
-    background-color: #0279b4;
+.button-cancel:hover {
+    background-color: #c0392b;
 }
 
-.table {
-    position: relative;
-    width: 100%;
-    height: 270px;
-    top: 40px;
-    display: flex;
-    flex-direction: column;
-}
-
-.table-titles-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.table-titles {
+.button-add {
+    width: 110px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: hidden;
+    border: none;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
-}
-
-.table-content {
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.table-item {
-    width: 95%;
-    height: 30px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.table-item-title {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
-}
-
-.table-item-options {
-    position: relative;
-    width: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.edit-icon {
-    color: #00a8ff;
-}
-
-.remove-icon {
-    color: red;
+    font-size: 14px;
+    background-color: #bdc3c7;
 }
