@@ -212,6 +212,8 @@ body {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .table-item {
@@ -241,8 +243,10 @@ body {
 
 .edit-icon {
     color: #00a8ff;
+    cursor: pointer;
 }
 
 .remove-icon {
     color: red;
+    cursor: pointer;
 }

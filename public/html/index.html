@@ -9,13 +9,13 @@
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script defer src="../js/index.js"></script>
 </head>
 
 <body>
 
     <div>
-        <div class=" container ">
+        <div class="container">
             <section class="grid ">
                 <div class="menu-lateral ">
                     <div class="menu-title-container ">
@@ -64,7 +64,7 @@
                             </span>
                     </div>
                     <div class="box-container restaurant-container">
-                        <button class="add-restaurant ">
+                        <button id="button-add-restaurant" class="add-restaurant">
                             <i class="fa fa-plus"></i> Adicionar
                         </button>
                         <div class="table">
@@ -72,42 +72,12 @@
                                 <span class="table-titles" style="padding-left: 20px;">Nome do restaurante</span>
                                 <span class="table-titles" style="padding-right: 30px;">Opções</span>
                             </div>
-                            <div class="table-content">
-                                <div class="table-item">
-                                    <span class="table-item-title">Restaurante 1</span>
-                                    <div class="table-item-options">
-                                        <span class="material-icons edit-icon">edit</span>
-                                        <span class="material-icons remove-icon">remove</span>
-                                    </div>
-                                </div>
-                                <div class="table-item">
-                                    <span class="table-item-title">Restaurante 2</span>
-                                    <div class="table-item-options">
-                                        <span class="material-icons edit-icon">edit</span>
-                                        <span class="material-icons remove-icon">remove</span>
-                                    </div>
-                                </div>
-                                <div class="table-item">
-                                    <span class="table-item-title">Restaurante 4</span>
-                                    <div class="table-item-options">
-                                        <span class="material-icons edit-icon">edit</span>
-                                        <span class="material-icons remove-icon">remove</span>
-                                    </div>
-                                </div>
-                                <div class="table-item">
-                                    <span class="table-item-title">Restaurante 3</span>
-                                    <div class="table-item-options">
-                                        <span class="material-icons edit-icon">edit</span>
-                                        <span class="material-icons remove-icon">remove</span>
-                                    </div>
-                                </div>
+                            <div id="table-content" class="table-content">
                             </div>
                         </div>
                     </div>
                     <div class="info-box restaurant ">
-                        <span class="info-title">
-                                Restaurantes
-                            </span>
+                        <span class="info-title">Restaurantes</span>
                     </div>
             </section>
             </div>
